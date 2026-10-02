@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Class 12 Physics Formula Book</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#f4f7fb;color:#172033}
+header{background:linear-gradient(135deg,#172554,#2563eb);color:white;text-align:center;padding:28px 15px}
+header h1{margin:0 0 8px;font-size:28px}
+.search{width:92%;max-width:750px;margin:18px auto}
+.search input{width:100%;padding:14px;border:1px solid #ccd5e1;border-radius:12px;font-size:16px}
+.container{width:92%;max-width:1000px;margin:auto}
+.chapter{background:white;margin:14px 0;border-radius:14px;box-shadow:0 3px 12px #00000012;overflow:hidden}
+.chapter h2{margin:0;padding:17px;background:#eaf1ff;color:#173b8f;cursor:pointer}
+.chapter h2:hover{background:#dbeafe}
+.content{display:none;padding:18px}
+.formula{background:#f8fafc;border-left:5px solid #2563eb;padding:12px;margin:10px 0;border-radius:8px;font-size:16px}
+.note{background:#fff7ed;border-left:5px solid #f97316;padding:12px;margin:12px 0;border-radius:8px}
+table{width:100%;border-collapse:collapse}
+th,td{border:1px solid #dbe2ea;padding:10px;text-align:left}
+th{background:#eaf1ff}
+footer{text-align:center;padding:25px;margin-top:30px;background:#172554;color:white}
+</style>
+</head>
+<body>
+<header>
+<h1>📘 Class 12 Physics Formula Book</h1>
+<p>Formulas • Short Differences • Quick Revision</p>
+</header>
+
+<div class="search">
+<input id="search" type="text" placeholder="🔎 Search chapter or formula..." oninput="searchNotes()">
+</div>
+
+<div class="container" id="book">
+
+<section class="chapter">
+<h2 onclick="toggle(this)">1. Electric Charges and Fields ▼</h2>
+<div class="content">
+<div class="formula"><b>Coulomb's Law:</b> F = (1 / 4πε₀) × (q₁q₂ / r²)</div>
+<div class="formula"><b>Electric Field:</b> E = F/q</div>
+<div class="formula"><b>Point Charge:</b> E = (1 / 4πε₀) × (q/r²)</div>
+<div class="formula"><b>Electric Flux:</b> Φ = EA cos θ</div>
+<div class="formula"><b>Gauss's Law:</b> Φ = q/ε₀</div>
+<div class="formula"><b>Dipole Moment:</b> p = q(2a)</div>
+<div class="formula"><b>Torque on Dipole:</b> τ = pE sin θ</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">2. Electrostatic Potential and Capacitance ▼</h2>
+<div class="content">
+<div class="formula"><b>Potential:</b> V = W/q</div>
+<div class="formula"><b>Point Charge Potential:</b> V = (1/4πε₀)(q/r)</div>
+<div class="formula"><b>Capacitance:</b> C = Q/V</div>
+<div class="formula"><b>Parallel Plate Capacitor:</b> C = ε₀A/d</div>
+<div class="formula"><b>Energy:</b> U = ½CV² = ½QV = Q²/2C</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">3. Current Electricity ▼</h2>
+<div class="content">
+<div class="formula"><b>Current:</b> I = Q/t</div>
+<div class="formula"><b>Ohm's Law:</b> V = IR</div>
+<div class="formula"><b>Resistance:</b> R = ρL/A</div>
+<div class="formula"><b>Power:</b> P = VI = I²R = V²/R</div>
+<div class="formula"><b>Drift Relation:</b> I = neAv<sub>d</sub></div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">4. Moving Charges and Magnetism ▼</h2>
+<div class="content">
+<div class="formula"><b>Magnetic Force:</b> F = qvB sin θ</div>
+<div class="formula"><b>Current-Carrying Wire:</b> F = BIL sin θ</div>
+<div class="formula"><b>Radius:</b> r = mv/qB</div>
+<div class="formula"><b>Long Straight Wire:</b> B = μ₀I/(2πr)</div>
+<div class="formula"><b>Torque on Loop:</b> τ = NIAB sin θ</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">5. Magnetism and Matter ▼</h2>
+<div class="content">
+<div class="formula"><b>Magnetic Dipole Torque:</b> τ = MB sin θ</div>
+<div class="formula"><b>Potential Energy:</b> U = −MB cos θ</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">6. Electromagnetic Induction ▼</h2>
+<div class="content">
+<div class="formula"><b>Magnetic Flux:</b> Φ = BA cos θ</div>
+<div class="formula"><b>Faraday's Law:</b> ε = −dΦ/dt</div>
+<div class="formula"><b>Self Induction:</b> ε = −L(di/dt)</div>
+<div class="formula"><b>Inductor Energy:</b> U = ½LI²</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">7. Alternating Current ▼</h2>
+<div class="content">
+<div class="formula"><b>AC Voltage:</b> V = V₀ sin ωt</div>
+<div class="formula"><b>RMS Voltage:</b> V<sub>rms</sub> = V₀/√2</div>
+<div class="formula"><b>RMS Current:</b> I<sub>rms</sub> = I₀/√2</div>
+<div class="formula"><b>Inductive Reactance:</b> X<sub>L</sub> = ωL</div>
+<div class="formula"><b>Capacitive Reactance:</b> X<sub>C</sub> = 1/(ωC)</div>
+<div class="formula"><b>Impedance:</b> Z = √[R² + (X<sub>L</sub>−X<sub>C</sub>)²]</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">8. Electromagnetic Waves ▼</h2>
+<div class="content">
+<div class="formula"><b>Speed:</b> c = 1/√(μ₀ε₀)</div>
+<div class="formula"><b>Wave Relation:</b> c = νλ</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">9. Ray Optics and Optical Instruments ▼</h2>
+<div class="content">
+<div class="formula"><b>Mirror Formula:</b> 1/f = 1/v + 1/u</div>
+<div class="formula"><b>Mirror Magnification:</b> m = −v/u</div>
+<div class="formula"><b>Lens Formula:</b> 1/f = 1/v − 1/u</div>
+<div class="formula"><b>Lens Magnification:</b> m = v/u</div>
+<div class="formula"><b>Power:</b> P = 1/f (f in metre)</div>
+<div class="formula"><b>Refractive Index:</b> n = c/v</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">10. Wave Optics ▼</h2>
+<div class="content">
+<div class="formula"><b>Fringe Width:</b> β = λD/d</div>
+<div class="formula"><b>Bright Fringe:</b> Path difference = nλ</div>
+<div class="formula"><b>Dark Fringe:</b> Path difference = (2n+1)λ/2</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">11. Dual Nature of Radiation and Matter ▼</h2>
+<div class="content">
+<div class="formula"><b>Photon Energy:</b> E = hν = hc/λ</div>
+<div class="formula"><b>Photoelectric Equation:</b> hν = φ + K<sub>max</sub></div>
+<div class="formula"><b>de Broglie Wavelength:</b> λ = h/p</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">12. Atoms ▼</h2>
+<div class="content">
+<div class="formula"><b>Bohr Angular Momentum:</b> mvr = nh/2π</div>
+<div class="formula"><b>Energy:</b> E<sub>n</sub> = −13.6/n² eV (hydrogen)</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">13. Nuclei ▼</h2>
+<div class="content">
+<div class="formula"><b>Mass-Energy:</b> E = mc²</div>
+<div class="formula"><b>Decay Law:</b> N = N₀e<sup>−λt</sup></div>
+<div class="formula"><b>Half-Life:</b> T½ = 0.693/λ</div>
+<div class="formula"><b>Activity:</b> A = λN</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">14. Semiconductor Electronics ▼</h2>
+<div class="content">
+<div class="formula"><b>Diode Equation:</b> I = I₀(e<sup>eV/kT</sup> − 1)</div>
+<div class="note"><b>Revision:</b> Diode, rectifier, transistor aur logic gates ke symbols aur truth tables bhi revise karein.</div>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">⚡ Important Short Differences ▼</h2>
+<div class="content">
+<table>
+<tr><th>Topic</th><th>Difference</th></tr>
+<tr><td>AC vs DC</td><td>AC ki direction/magnitude time ke saath vary karti hai; ideal DC ki direction constant hoti hai.</td></tr>
+<tr><td>Conductor vs Insulator</td><td>Conductor mein free charge carriers zyada available hote hain; insulator mein bahut kam.</td></tr>
+<tr><td>Intrinsic vs Extrinsic Semiconductor</td><td>Intrinsic pure semiconductor hai; extrinsic mein controlled impurity doping hoti hai.</td></tr>
+<tr><td>Convex vs Concave Lens</td><td>Convex lens parallel rays ko converge karta hai; concave lens diverge karta hai.</td></tr>
+<tr><td>Interference vs Diffraction</td><td>Interference multiple coherent wave contributions se intensity pattern banata hai; diffraction aperture/edge ke around wave spreading se pattern banata hai.</td></tr>
+<tr><td>Mass Defect vs Binding Energy</td><td>Mass defect mass difference hai; binding energy nucleus ko separate nucleons mein todne ke liye required energy hai.</td></tr>
+</table>
+</div></section>
+
+<section class="chapter">
+<h2 onclick="toggle(this)">🔢 Important Constants ▼</h2>
+<div class="content">
+<div class="formula">ε₀ = 8.85 × 10⁻¹² C² N⁻¹ m⁻²</div>
+<div class="formula">μ₀ = 4π × 10⁻⁷ T m A⁻¹</div>
+<div class="formula">c = 3 × 10⁸ m/s</div>
+<div class="formula">h = 6.626 × 10⁻³⁴ J·s</div>
+<div class="formula">e = 1.6 × 10⁻¹⁹ C</div>
+<div class="formula">mₑ = 9.11 × 10⁻³¹ kg</div>
+</div></section>
+
+</div>
+
+<footer>📘 Class 12 Physics Formula Book — Quick Revision</footer>
+
+<script>
+function toggle(title){
+  const current = title.nextElementSibling;
+  document.querySelectorAll(".chapter .content").forEach(c => {
+    if(c !== current) c.style.display = "none";
+  });
+  current.style.display = current.style.display === "block" ? "none" : "block";
+}
+
+function searchNotes(){
+  const q = document.getElementById("search").value.toLowerCase().trim();
+  document.querySelectorAll(".chapter").forEach(ch => {
+    ch.style.display = ch.innerText.toLowerCase().includes(q) ? "block" : "none";
+  });
+}
+</script>
+</body>
+</html>
